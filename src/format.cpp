@@ -6,11 +6,7 @@
 
 using std::string;
 
-// TODO: Complete this helper function
-// INPUT: Long int measuring seconds
-// OUTPUT: HH:MM:SS
-// REMOVE: [[maybe_unused]] once you define the function
-//new solution based on feedback in past submit using the chrono library
+// formats long int of seconds into chrono time.
 string Format::ElapsedTime(long s) { 
   
   std::chrono::seconds seconds{s};
